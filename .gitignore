@@ -53,3 +53,5 @@ dkms.conf
 
 .vscode/
 build_wsl/
+__pycache__/
+lib/
