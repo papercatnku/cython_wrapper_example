@@ -29,6 +29,7 @@ long FooDummyPrint(const FooStruct* pFooStruct) {
     }
     ss << "\n  pPitch[" << i << "]: " << pFooStruct->pPitch[i] << endl;
   }
+  printf("%s\n", ss.str().c_str());
 
   return 0;
 }

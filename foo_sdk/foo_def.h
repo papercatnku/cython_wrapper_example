@@ -1,7 +1,7 @@
 #pragma once
 
 #ifdef __cplusplus
-extern "C" {
+    extern "C" {
 #endif
 
 typedef struct __tag_FooStruct {
@@ -15,3 +15,5 @@ typedef struct __tag_FooStruct {
 #ifdef __cplusplus
 }
 #endif
+
+
